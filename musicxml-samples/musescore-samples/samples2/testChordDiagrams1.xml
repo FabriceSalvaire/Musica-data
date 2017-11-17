@@ -4,28 +4,28 @@
   <work>
     <work-number>MuseScore testfile</work-number>
     <work-title>Chord diagrams 1</work-title>
-    </work>
+  </work>
   <identification>
     <creator type="composer">Leon Vinken</creator>
     <encoding>
       <software>MuseScore 0.7.0</software>
       <encoding-date>2007-09-10</encoding-date>
-      </encoding>
-    </identification>
+    </encoding>
+  </identification>
   <part-list>
     <score-part id="P1">
-      <part-name></part-name>
+      <part-name/>
       <score-instrument id="P1-I3">
-        <instrument-name></instrument-name>
-        </score-instrument>
+        <instrument-name/>
+      </score-instrument>
       <midi-instrument id="P1-I3">
         <midi-channel>1</midi-channel>
         <midi-program>53</midi-program>
         <volume>78.7402</volume>
         <pan>0</pan>
-        </midi-instrument>
-      </score-part>
-    </part-list>
+      </midi-instrument>
+    </score-part>
+  </part-list>
   <part id="P1">
     <measure number="1">
       <attributes>
@@ -33,41 +33,41 @@
         <key>
           <fifths>0</fifths>
           <mode>major</mode>
-          </key>
+        </key>
         <time>
           <beats>4</beats>
           <beat-type>4</beat-type>
-          </time>
+        </time>
         <clef>
           <sign>G</sign>
           <line>2</line>
-          </clef>
-        </attributes>
+        </clef>
+      </attributes>
       <harmony print-frame="no">
         <root>
           <root-step>G</root-step>
-          </root>
+        </root>
         <kind text="">major</kind>
-        </harmony>
+      </harmony>
       <note>
         <pitch>
           <step>G</step>
           <octave>4</octave>
-          </pitch>
+        </pitch>
         <duration>4</duration>
         <voice>1</voice>
         <type>whole</type>
         <lyric number="1">
           <syllabic>single</syllabic>
           <text>Chord</text>
-          </lyric>
-        </note>
-      </measure>
+        </lyric>
+      </note>
+    </measure>
     <measure number="2">
       <harmony print-frame="no">
         <root>
           <root-step>C</root-step>
-          </root>
+        </root>
         <kind text="">major</kind>
         <frame>
           <frame-strings>6</frame-strings>
@@ -75,44 +75,44 @@
           <frame-note>
             <string>5</string>
             <fret>3</fret>
-            </frame-note>
+          </frame-note>
           <frame-note>
             <string>4</string>
             <fret>2</fret>
-            </frame-note>
+          </frame-note>
           <frame-note>
             <string>3</string>
             <fret>0</fret>
-            </frame-note>
+          </frame-note>
           <frame-note>
             <string>2</string>
             <fret>1</fret>
-            </frame-note>
+          </frame-note>
           <frame-note>
             <string>1</string>
             <fret>0</fret>
-            </frame-note>
-          </frame>
-        </harmony>
+          </frame-note>
+        </frame>
+      </harmony>
       <note>
         <pitch>
           <step>C</step>
           <octave>5</octave>
-          </pitch>
+        </pitch>
         <duration>4</duration>
         <voice>1</voice>
         <type>whole</type>
         <lyric number="1">
           <syllabic>single</syllabic>
           <text>Chord plus frame</text>
-          </lyric>
-        </note>
-      </measure>
+        </lyric>
+      </note>
+    </measure>
     <measure number="3">
       <harmony print-frame="no">
         <root>
           <root-step>B</root-step>
-          </root>
+        </root>
         <kind text="m">minor</kind>
         <frame>
           <frame-strings>6</frame-strings>
@@ -120,41 +120,41 @@
           <frame-note>
             <string>5</string>
             <fret>2</fret>
-            </frame-note>
+          </frame-note>
           <frame-note>
             <string>4</string>
             <fret>4</fret>
-            </frame-note>
+          </frame-note>
           <frame-note>
             <string>3</string>
             <fret>4</fret>
-            </frame-note>
+          </frame-note>
           <frame-note>
             <string>2</string>
             <fret>3</fret>
-            </frame-note>
+          </frame-note>
           <frame-note>
             <string>1</string>
             <fret>2</fret>
-            </frame-note>
-          </frame>
-        </harmony>
+          </frame-note>
+        </frame>
+      </harmony>
       <note>
         <pitch>
           <step>B</step>
           <octave>4</octave>
-          </pitch>
+        </pitch>
         <duration>4</duration>
         <voice>1</voice>
         <type>whole</type>
         <lyric number="1">
           <syllabic>single</syllabic>
           <text>Chord plus frame</text>
-          </lyric>
-        </note>
+        </lyric>
+      </note>
       <barline location="right">
         <bar-style>light-heavy</bar-style>
-        </barline>
-      </measure>
-    </part>
-  </score-partwise>
+      </barline>
+    </measure>
+  </part>
+</score-partwise>

@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 1.1 Partwise//EN"
-                                "http://www.musicxml.org/dtds/partwise.dtd">
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 1.1 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="1.1">
   <movement-title>Tempo markings</movement-title>
   <identification/>
   <defaults/>
   <part-list>
     <score-part id="P1">
-      <part-name></part-name>
+      <part-name/>
       <score-instrument id="P1-I1">
         <instrument-name>Grand Piano</instrument-name>
       </score-instrument>
@@ -45,13 +44,19 @@
         </direction-type>
       </direction>
       <note>
-        <pitch><step>C</step><octave>5</octave></pitch>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
       </note>
       <note>
-        <pitch><step>C</step><octave>5</octave></pitch>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
@@ -68,13 +73,19 @@
         </direction-type>
       </direction>
       <note>
-        <pitch><step>C</step><octave>5</octave></pitch>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
       </note>
       <note>
-        <pitch><step>C</step><octave>5</octave></pitch>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
@@ -93,13 +104,19 @@
         </direction-type>
       </direction>
       <note>
-        <pitch><step>C</step><octave>5</octave></pitch>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
       </note>
       <note>
-        <pitch><step>C</step><octave>5</octave></pitch>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
@@ -114,13 +131,19 @@
         </direction-type>
       </direction>
       <note>
-        <pitch><step>C</step><octave>5</octave></pitch>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
       </note>
       <note>
-        <pitch><step>C</step><octave>5</octave></pitch>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
@@ -139,13 +162,19 @@
         </direction-type>
       </direction>
       <note>
-        <pitch><step>C</step><octave>5</octave></pitch>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
       </note>
       <note>
-        <pitch><step>C</step><octave>5</octave></pitch>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
@@ -160,13 +189,19 @@
         </direction-type>
       </direction>
       <note>
-        <pitch><step>C</step><octave>5</octave></pitch>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
       </note>
       <note>
-        <pitch><step>C</step><octave>5</octave></pitch>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>

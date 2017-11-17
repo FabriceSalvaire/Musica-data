@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 1.0 Partwise//EN"
-                                "http://www.musicxml.org/dtds/partwise.dtd">
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 1.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise>
   <movement-title>Spanners Test</movement-title>
   <identification>
@@ -26,7 +25,7 @@
   </part-list>
   <!--=========================================================-->
   <part id="P1">
-      <!-- Tested spanners: tuplet, slur(solid, dashed), wedge (cresc, dim),
+    <!-- Tested spanners: tuplet, slur(solid, dashed), wedge (cresc, dim),
            wavy-line, octave-shift (8va,8vb,15ma,15mb), bracket (solid, 
            dashed up/down, dashes, glissando (wavy), slide (solid), 
            pedal (down,up,change; line/Ped*)  -->

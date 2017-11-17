@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 1.0 Partwise//EN"
-                                "http://www.musicxml.org/dtds/partwise.dtd">
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 1.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise>
   <movement-title>Lyrics attributes: name and number</movement-title>
   <identification>
@@ -16,9 +15,18 @@
     <measure number="1">
       <attributes>
         <divisions>1</divisions>
-        <key><fifths>0</fifths><mode>major</mode></key>
-        <time><beats>6</beats><beat-type>4</beat-type></time>
-        <clef><sign>G</sign><line>2</line></clef>
+        <key>
+          <fifths>0</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
+          <beats>6</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
       </attributes>
       <sound tempo="120"/>
       <note>
@@ -47,7 +55,10 @@
         </lyric>
       </note>
       <note>
-        <pitch><step>G</step><octave>4</octave></pitch>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
@@ -61,7 +72,10 @@
         </lyric>
       </note>
       <note>
-        <pitch><step>G</step><octave>4</octave></pitch>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
@@ -75,7 +89,10 @@
         </lyric>
       </note>
       <note>
-        <pitch><step>G</step><octave>4</octave></pitch>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
@@ -85,7 +102,10 @@
         </lyric>
       </note>
       <note>
-        <pitch><step>G</step><octave>4</octave></pitch>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
@@ -95,7 +115,10 @@
         </lyric>
       </note>
       <note>
-        <pitch><step>G</step><octave>4</octave></pitch>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>

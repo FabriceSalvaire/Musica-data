@@ -1,0 +1,57 @@
+#! /usr/bin/env python3
+
+####################################################################################################
+
+from os import path
+import os
+import subprocess
+
+from lxml import etree
+
+####################################################################################################
+
+def walk_on_samples(samples_path):
+
+    for root, dirs, files in os.walk(samples_path):
+        for filename in files:
+            if filename.endswith('.xml'):
+                yield os.path.join(root, filename)
+
+####################################################################################################
+
+def check_sample(path, xml_schema):
+
+    # print(path)
+
+    # parser = etree.XMLParser(dtd_validation=True)
+
+    try:
+        with open(path, 'rb') as fh:
+            # root = etree.fromstring(fh.read(), parser)
+            document = etree.parse(fh)
+            is_valid = xml_schema.validate(document)
+            return is_valid
+    except etree.XMLSyntaxError as exception:
+        return False
+
+####################################################################################################
+
+samples_path = path.dirname(__file__)
+musica_path = os.path.realpath(os.path.join(samples_path, '..', '..', '..'))
+
+# Load MusicXML Schema
+xml_schema_path = os.path.join(musica_path, 'specifications', 'MusicXML-3.0', 'musicxml.xsd')
+# print(xml_schema_path)
+with open(xml_schema_path, 'rb') as fh:
+    xml_schema_document = etree.parse(fh)
+xml_schema = etree.XMLSchema(xml_schema_document)
+
+for path in walk_on_samples(samples_path):
+    if check_sample(path, xml_schema):
+        # print("{} is valid".format(path))
+        #! subprocess.call(('/usr/bin/xmllint', '--format', '--output', path, path))
+        pass
+    else:
+        print("{} is invalid".format(path))
+        basename, ext = os.path.splitext(path)
+        os.rename(path, basename + '.ixml')

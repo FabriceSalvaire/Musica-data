@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 1.0 Partwise//EN"
-                                "http://www.musicxml.org/dtds/partwise.dtd">
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 1.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise>
   <movement-title>Score with multi-line instrument names</movement-title>
   <identification>
@@ -14,10 +13,10 @@
   </identification>
   <part-list>
     <score-part id="P1">
-      <part-name>Long&#xd;
-Staff&#xd;
+      <part-name>Long&#13;
+Staff&#13;
 Name</part-name>
-      <part-abbreviation>St.&#xd;
+      <part-abbreviation>St.&#13;
 Nm.</part-abbreviation>
       <score-instrument id="P1-I1">
         <instrument-name>Grand Piano</instrument-name>
